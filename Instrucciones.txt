@@ -1,0 +1,24 @@
+Abrir CMD como administrador.
+
+Ahora, copiamos el script “addfwrs.bat” que hemos descargado anteriormente a la carpeta del programa que queramos bloquear, por ejemplo Acrobat:
+
+C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+
+Volvemos al símbolo del sistema, y escribimos lo siguiente:
+
+CD C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat
+
+bloquear acrobat
+
+Hecho esto, escribimos lo siguiente:
+
+addfwrs NOMBRE DEL PROGRAMA
+
+Por ejemplo, addfwrs ACROBAT.
+
+Esto hará que el programa bloquee todos los ejecutables de la carpeta CD C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat 
+y los añadirá al Firewall de Windows bajo el nombre de ACROBAT.
+
+
+
+Una vez finalizado, habrá bloqueado todos los ejecutables de Acrobat en el Firewall avanzado de Windows.
